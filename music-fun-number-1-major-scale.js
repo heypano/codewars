@@ -146,3 +146,13 @@ function getAllNotes(){
         'Cb': 11
     }
 }
+
+var test_1 = "CBCACGCFCECDC";
+var test_2 = "D#C#BAG#E";
+var test_3 = "F#D#A#BC#D#BD#EBG#A#B";
+var test_4 = "CD#C#FD#GFG#GA#";
+
+console.log(test_1, getNoteListFromMelody(test_1), majorScale(test_1))
+console.log(test_2, getNoteListFromMelody(test_2), majorScale(test_2))
+console.log(test_3, getNoteListFromMelody(test_3), majorScale(test_3))
+console.log(test_4, getNoteListFromMelody(test_4), majorScale(test_4))
